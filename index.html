@@ -174,15 +174,25 @@ while True:
                 <div class="module-id">MOD_08 // LITERACY</div>
             </section>
 
-            <section>
-                <h3>Efficiency Specs</h3>
-                <ul>
-                    <li><strong>Footprint:</strong> ~350MB RAM for 0.5B 4-bit model.</li>
-                    <li><strong>Throughput:</strong> ~30 tokens/sec (CPU-only).</li>
-                    <li><strong>Portability:</strong> Runs on any environment that supports Docker/Codespaces.</li>
-                </ul>
-                <div class="module-id">MOD_09 // PERFORMANCE</div>
-            </section>
+<section>
+    <h3>Efficiency Specs</h3>
+    <div style="display: flex; justify-content: space-around; align-items: center; margin-top: 40px;">
+        <div style="text-align: center; border: 2px solid #000; padding: 20px; width: 30%;">
+            <div style="font-size: 2em; font-weight: 900;">350MB</div>
+            <div style="font-size: 0.5em; font-family: monospace;">RAM FOOTPRINT</div>
+        </div>
+        <div style="text-align: center; border: 2px solid #000; padding: 20px; width: 30%;">
+            <div style="font-size: 2em; font-weight: 900;">5-10</div>
+            <div style="font-size: 0.5em; font-family: monospace;">TOKENS / SEC</div>
+        </div>
+    </div>
+    <ul style="margin-top: 40px;">
+        <li><strong>Hardware:</strong> 2-Core CPU 8GB RAM (Free Tier).</li>
+        <li><strong>Model:</strong> Qwen 2.5 0.5B (4-bit GGUF quantization).</li>
+        <li><strong>Portability:</strong> Zero local dependencies; runs in-browser.</li>
+    </ul>
+    <div class="module-id">MOD_09 // PERFORMANCE</div>
+</section>
 
             <section>
                 <h3>The Teachable Moment</h3>
